@@ -1,2 +1,6 @@
-# flight-prices-ML-project
-Project for CIS 4130 (Big Data Technologies) class. 
+# Flight Prices Machine Learning Project
+
+This is a semester long project project for my CIS 4130 class, Big Data Technologies. In this project, I extracted [flight data](https://www.kaggle.com/datasets/dilwong/flightprices/data) from Kaggle, cleaned it, transformed it, and created a linear regression model that predicts flight prices. The tools used in this project were all under Google Cloud Platform. Specifically, I used Compute Instances, Google Dataproc, PySpark, and Buckets. 
+
+### What you can find in this repository
+In this repo, I have included all scripts used for this project which are located in the "Scripts" folder. I also included a report that details all the steps I took in completing this project. It comes full with descriptions of the data, to methodologies, to visualizations that were created both pre and post model creation. For a full breakdown of the project, please view [project_report](https://github.com/markpedraza/flight-prices-ML-project/blob/main/project_report.pdf) in the main body of the repo. Lastly, you can view the PNG's that were created from the [ModelVisualization](https://github.com/markpedraza/flight-prices-ML-project/blob/main/Scripts/ModelVisualization.ipynb) script inside the [Model Visualizations](https://github.com/markpedraza/flight-prices-ML-project/tree/main/Model%20Visualizations) folder.
