@@ -5,10 +5,10 @@ For all these scripts, it is assuming it is being ran under Google Cloud Platfor
 Below are quick descriptions on what each script does.
 
 ## EDA
-Performs exploratory data analysis upon the data
+Performs exploratory data analysis upon the raw data.
 
 ## CleanData
-Reads data from the bucket and cleans it. Then, it writes the clean data back into a bucket
+Reads raw data from the bucket and cleans it. Then, it writes the clean data back into a bucket.
 
 ## ModelCreation
 Reads clean data and trains a linear regression model using a cross validator. It then saves the transformed data it used for model training as well as the model it created back into the bucket.
